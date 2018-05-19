@@ -25,10 +25,11 @@ namespace snake
 
             Console.ReadLine();
         }
-    
+
         static void Draw(int x, int y, char sim)
         {
-            Console.SetCursorPosition(x, y,);
+            Console.SetCursorPosition(x, y);
             Console.Write(sim);
         }
+    }
 }
